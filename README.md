@@ -1,4 +1,4 @@
-# 太古汇微信小程序
+# 微信小程序
 
 ## 开发时启动项目
 1. cd 项目根目录
@@ -10,7 +10,7 @@
 npm run build
 
 
-## 知识准备：ES6 ,  Redux,  中间件 (  [Redux-sago](http://leonshi.com/redux-saga-in-chinese/docs/api/index.html),  )
+## 知识准备：ES6 ,  Redux,  中间件 (  [Redux-saga](http://leonshi.com/redux-saga-in-chinese/docs/api/index.html),  )
 
 Reducers 负责处理 action 的 state 更新。
 
