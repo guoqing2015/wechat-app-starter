@@ -1,0 +1,7 @@
+<view>
+  <view >
+    <button type="default" catchtap="navToDemoCouter"> demoCouter </button>
+    <button type="default" catchtap="navToDemoAjax"> demoAjax </button>
+    <button type="default" catchtap="handleShowUI"> UI </button>
+  </view>
+</view>

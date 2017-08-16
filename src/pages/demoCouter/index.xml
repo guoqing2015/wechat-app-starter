@@ -1,0 +1,15 @@
+<view>
+
+  <view class="text-center">
+    <block>
+         <text  style="height: 100px; line-height: 100px; display: block;">Counter: {{props.counter}}</text>
+     </block>
+  </view>
+
+  <button type="default" catchtap="handleIncrement"> Increment </button>
+  <button type="default" catchtap="handledoubleAsyncStart"> Double (Async) </button>
+
+</view>
+
+
+

@@ -1,0 +1,29 @@
+<view>
+  <view class="demoajax-form flex-row items-center" style="margin-top: 1rem;">
+    <view class="flex" style="border: 1px solid #dcdcdc; height: 100%; background: #ffffff; margin-right: 0.5rem;">
+      <input class="form-control" type="text" placeholder="请输入Github用户名" value="{{state.githubUsername}}"
+             bindinput="onChangeUsername"/>
+    </view>
+    <view class="btn btn-success btn-toolbar" catchtap="search">查询</view>
+  </view>
+  <view style="font-size: 0,4rem; color: #666666;  padding-left:1.25rem; margin-top: 0.5rem; margin-bottom: 1rem;">
+    tip: 可输入gituhb用户名，如facebook，vuejs, iamjoel......
+  </view>
+  <view class="hl">username : {{props.username}}</view>
+  <view class="hl"> loading: {{props.loading}} </view>
+  <view class="hl"> error: {{props.error}} </view>
+
+  <view  style="margin-top: 1rem;">
+    <view  class="hl">repositories: </view>
+    <block wx:for="{{props.repos}}"  wx:for-item="repo">
+      <view  class="hl">
+        {{index}}: {{repo.name}}
+      </view>
+    </block >
+  </view>
+
+
+</view>
+
+
+

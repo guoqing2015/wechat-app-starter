@@ -1,0 +1,35 @@
+<view class="onlineSign">
+  <view class="onlineSign-wrap">
+    <view class="onlineSign-header">
+      <view class="onlineSign-title">
+        <view class="title-line text-center">每天签到送积分，</view>
+        <view class="title-line text-center">连续签满<text>4天/7天</text>送代金卷</view>
+      </view>
+      <view class="onlineSign-record box">
+        <view class="flex-1">1天</view>
+        <view class="flex-1">2天</view>
+        <view class="flex-1">3天</view>
+        <view class="flex-1">4天</view>
+        <view class="flex-1">5天</view>
+        <view class="flex-1">6天</view>
+        <view class="flex-1">7天</view>
+      </view>
+      <view class="onlineSign-summary">
+        已连续签到3天
+      </view>
+      <view class="onlineSign-btn">今日签到</view>
+      <view class="onlineSign-history">我的签到报告</view>
+    </view>
+    <view class="shopSign">
+      店铺签到
+    </view>
+    <view class="onlineSign-footer">
+      <component  key="switchCom" name="switchCom"></component>
+    </view>
+  </view>
+  <view>
+    <loading hidden="props.loading">
+      加载中...
+    </loading>
+  </view>
+</view>
